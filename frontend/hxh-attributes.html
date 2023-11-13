@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hypersurface</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<main class="container">
+
+		<!-- Unsigned Integers -->
+		<input hxh-type="uint-8" placeholder="Enter an 8-bit unsigned integer">
+		<input hxh-type="uint-16" placeholder="Enter a 16-bit unsigned integer">
+		<input hxh-type="uint-32" placeholder="Enter a 32-bit unsigned integer">
+		<input hxh-type="uint-64" placeholder="Enter a 64-bit unsigned integer">
+		<input hxh-type="uint-128" placeholder="Enter a 128-bit unsigned integer">
+		<input hxh-type="uint-256" placeholder="Enter a 256-bit unsigned integer">
+
+		<!-- Signed Integers -->
+		<input hxh-type="int-8" placeholder="Enter an 8-bit signed integer">
+		<input hxh-type="int-16" placeholder="Enter a 16-bit signed integer">
+		<input hxh-type="int-32" placeholder="Enter a 32-bit signed integer">
+		<input hxh-type="int-64" placeholder="Enter a 64-bit signed integer">
+		<input hxh-type="int-128" placeholder="Enter a 128-bit signed integer">
+		<input hxh-type="int-256" placeholder="Enter a 256-bit signed integer">
+
+		<!-- Ethereum Address -->
+		<input hxh-type="address" placeholder="Enter a 20-byte Ethereum address">
+				
+		<!-- Byte Arrays -->
+		<input hxh-type="bytes-1" placeholder="Enter byte array of length 1 (2 hex characters)">
+		<input hxh-type="bytes-2" placeholder="Enter byte array of length 2 (4 hex characters)">
+		<input hxh-type="bytes-4" placeholder="Enter byte array of length 4 (8 hex characters)">
+		<input hxh-type="bytes-8" placeholder="Enter byte array of length 8 (16 hex characters)">
+		<input hxh-type="bytes-16" placeholder="Enter byte array of length 16 (32 hex characters)">
+		<input hxh-type="bytes-32" placeholder="Enter byte array of length 32 (64 hex characters)">
+
+		<!-- UTF-8 encoded string -->
+		<textarea hxh-type="string" placeholder="Enter a UTF-8 encoded string"></textarea>
+
+		<!-- TODO -->
+		<!-- Add an input for a hypersurface domain route e.g., johnsmith/wallet/register or acme/shares/transfer -->
+		
+	</main>
+</body>
+<script src="js/HLML.js"></script>
+<script src="js/attributes.js"></script>
+</html>

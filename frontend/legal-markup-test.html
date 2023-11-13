@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+    <script type="module" src="./js/index.js"></script>
+</head>
+<body class="container">
+    <legal-document>
+        <legal-head>
+            <legal-title>Action Authorization Token Agreement</legal-title> <!-- Replaces HTML title -->
+            <!-- Metadata goes here -->
+            <!-- e.g., raw return data and other fields to be inserted into the agreement -->
+        </legal-head>
+        <legal-body>
+            <!--
+                Executing routes are automatically formatted, and designed to execute actions at arbitrary depth. 
+                The full action would look something like: 
+                johnsmith/wallet/execute:: broker-dealer/treasury/execute:: vc-firm/fund-i/execute-authorised:: company/series-a-common/transfer:: recipient/wallet/register
+            -->
+            <legal-form hxh-action="company/series-a-common/transfer" hxh-method="POST">
+                <legal-section>
+                    <h1>Action Authorization Token Agreement</h1>
+                    <p>This document serves as an Action Authorization Token Agreement ("Agreement"), put forth by the <a hxh-ref="vc-firm/fund-i">Issuer</a>, conferring upon the <a hxh-ref="broker-dealer/treasury">Recipient</a> the authorization to perform a specified action. This token is redeemable for the execution of a share transfer through the submission of this form to the URL specified in the form's action attribute.</p>
+                </legal-section>
+            
+                <legal-section>
+                    <legal-clause>
+                        <h2>1. Grant of Authority</h2>
+                        <legal-subclause>
+                            <p>The Issuer grants the Recipient the authority to execute a share transfer of <a hxh-href="company/series-a-common">Series A Common shares of Company</a>, as specified in this redeemable Action Authorization Token. The transfer is facilitated through a call to the specified URL, under the predefined conditions of this Agreement.</p>
+                        </legal-subclause>
+                    </legal-clause>
+
+                    <legal-clause>
+                        <h2>2. Accessible Amount Specification</h2>
+                        <legal-subclause>
+                            <p>Amount accessible by the Recipient for transfer:</p>
+                            <div>
+                                <label for="accessible-amount">Accessible Amount:</label>
+                                <input hxh-type="uint-256" id="accessible-amount" name="accessible-amount" placeholder="Enter the accessible amount">
+                            </div>
+                        </legal-subclause>
+                    </legal-clause>
+            
+                    <legal-clause>
+                        <h2>3. Recipient Specification</h2>
+                        <legal-subclause>
+                            <p>Specify the recipient and the amount for transfer:</p>
+                            <div>
+                                <label for="recipient">Recipient URL:</label>
+                                <input hxh-type="domain" id="recipient" name="recipient" placeholder="Enter the recipient URL">
+                            </div>
+                            <div>
+                                <label for="transfer-amount">Transfer Amount:</label>
+                                <input hxh-type="uint-256" id="transfer-amount" name="transfer-amount" placeholder="Enter the amount for transfer">
+                            </div>
+                        </legal-subclause>
+                    </legal-clause>
+                
+                    <legal-clause>
+                        <h2>4. Revocability</h2>
+                        <legal-subclause>
+                            <p>The Issuer may withdraw this Agreement at any point prior to its execution by preventing access to the submission URL or by other means that stop the execution of the action.</p>
+                        </legal-subclause>
+                    </legal-clause>
+            
+                    <legal-clause>
+                        <h2>5. Liability and Indemnification</h2>
+                        <legal-subclause>
+                            <p>The Recipient is not liable for the results of the action taken under this Agreement, provided that the action is carried out in accordance with the terms herein.</p>
+                        </legal-subclause>
+                    </legal-clause>
+            
+                    <legal-clause>
+                        <h2>6. Governing Terms</h2>
+                        <legal-subclause>
+                            <p>The terms for execution, redemption, and revocation of this Agreement are determined by the functionality and conditions programmed into the specified URL's response to the form submission.</p>
+                        </legal-subclause>
+                    </legal-clause>
+                    
+                </legal-section>
+            
+                <button hxh-type="sign">Execute</button>
+
+            </legal-form>
+        </legal-body>
+    </legal-document>
+</body>
+<script src="./js/components/HLML.js" type="module"></script>
+</html>
+

@@ -1,0 +1,46 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "parcel frontend/index.html",
+    "build": "parcel build frontend/index.html",
+    "deploy-local": "npx hardhat run scripts/deploy.cjs --network localhost",
+    "deploy-sepolia": "npx hardhat run scripts/deploy.cjs --network sepolia",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereum-waffle/chai": "^4.0.10",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@oasisprotocol/sapphire-hardhat": "^2.16.1",
+    "@oasisprotocol/sapphire-paratime": "^1.1.1",
+    "@tiptap/core": "^2.1.8",
+    "@tiptap/pm": "^2.1.8",
+    "@tiptap/starter-kit": "^2.1.8",
+    "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.3",
+    "htmx.org": "^1.9.5",
+    "postcss": "^8.4.29"
+  },
+  "devDependencies": {
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.9.3",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0"
+  }
+}

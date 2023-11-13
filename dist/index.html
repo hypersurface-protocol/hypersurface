@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hypersurface</title>
+    <link rel="stylesheet" href="/index.a3e9af61.css">
+	<style>.container {
+  padding-top: 30vh;
+}
+
+input {
+  width: 100%;
+  display: block;
+}
+
+</style>
+</head>
+<body>
+    <main class="container">
+        <legal-form hxh-action="contract/proxy/updateDetails" hxh-method="POST">
+            <label for="_name">Name:</label>
+            <input name="_name" id="_name" hxh-type="string" placeholder="Enter a UTF-8 encoded string">
+            <br>
+            <label for="_email">Email:</label>
+            <input name="_email" id="_email" hxh-type="string" placeholder="Enter a UTF-8 encoded string">
+			<br>
+			<label for="_age">Age:</label>
+			<input name="_age" id="_age" hxh-type="int-256" placeholder="Enter a 256-bit signed integer">
+            <br>
+			<button hxh-type="sign">Sign</button>
+        </legal-form>
+    </main>
+</body>
+<script src="/index.2ba7ee8b.js"></script>
+<script src="/index.3a16fc23.js" defer=""></script>
+</html>

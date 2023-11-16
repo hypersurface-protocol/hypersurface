@@ -67,12 +67,12 @@ The purpose of these extensions is to enable sophisticated blockchain functional
 
 Hypersurface exists at the intersection of the traditional legal system, fundamental web technologies, and cutting-edge smart contract functionality. This unique combination of features means that not only can the blockchain be used in ways that users are familiar with for the first time ever (i.e., like the web), but it also forms the basis for a fundamentally new web architecture.
 
-Transforming Legal and Web Interactions: Hypersurface bridges the gap between the traditional legal system and advanced web technology, streamlining the way legal agreements are managed and executed online. It moves away from static document formats like PDF and paper, which often require cumbersome methods for data entry and signature.
+Hypersurface bridges the gap between the traditional legal system and advanced web technology, streamlining the way legal agreements are managed and executed online. It moves away from static document formats like PDF and paper, which often require cumbersome methods for data entry and signature.
 
-Enhanced Data Capture and Record Keeping: Unlike the conventional web interaction where users send data to a server without maintaining a record of the data in its full context, Hypersurface allows for capturing data explicitly in its intended context, ensuring that users have a complete record of their data submissions.
+Unlike the conventional web interaction where users send data to a server without maintaining a record of the data in its full context, Hypersurface allows for capturing data explicitly in its intended context, ensuring that users have a complete record of their data submissions.
 
-Secure and Comprehensive Data Recording: Users interact with their own server, which securely records the data in its entirety. This server then securely communicates the data to the relevant external servers, incorporating hashing and signing of webpages for added security.
+Users interact with their own server, which securely records the data in its entirety. This server then securely communicates the data to the relevant external servers, incorporating hashing and signing of webpages for added security.
 
-Balances and Transferability Features: Hypersurface introduces the concept of balances and transferability into web documents. This means that web pages can now be used to record not just legal agreements but also assets and permissions. Each interaction or transaction on these pages can be recorded with precise balances, and the ownership or rights can be transferred as per the specified legal and operational frameworks.
+Hypersurface introduces the concept of balances and transferability into web documents. This means that web pages can now be used to record not just legal agreements but also assets and permissions. Each interaction or transaction on these pages can be recorded with precise balances, and the ownership or rights can be transferred as per the specified legal and operational frameworks.
 
 For more information, please see the [Hypersurface Whitepaper](https://github.com/hypersurface-protocol/whitepaper).

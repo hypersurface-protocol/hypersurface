@@ -46,9 +46,7 @@ For actions that cannot be performed using tokens, the recipient simply signs a 
 
 Hypersurface enables the creation of smart legal agreements using basic HTML. This is made possible through two custom HTML extensions, HyperLegal Markup Language ("HLML") and Hypersurface Extension for HTML ("HXH"), that represent a simple layer of abstraction on top of basic HTML. Preliminary implementations of these can be found in the "frontend" directory.
 
-HyperLegal Markup Language ("HLML") is an extension of standard HTML tags used to structure legal contracts, providing greater context and specificity. This enables external machine systems to parse and index legal agreements like webpages, without the need for cumbersome techniques such as natural
-
- language processing.
+HyperLegal Markup Language ("HLML") is an extension of standard HTML tags used to structure legal contracts, providing greater context and specificity. This enables external machine systems to parse and index legal agreements like webpages, without the need for cumbersome techniques such as natural language processing.
 
 The Hypersurface Extension for HTML ("HXH") is a suite of custom HTML attributes and methods which may be applied to HTML or HLML elements, allowing users to interact with the blockchain from basic web pages. Instead of using less secure standard HTML inputs such as `type="text"` or `type="number"`, documents can take advantage of custom HXH Solidity type-safe attributes, such as `hxh-type="bytes-32"` or `hxh-type="uint-256"`.
 

@@ -75,6 +75,4 @@ Secure and Comprehensive Data Recording: Users interact with their own server, w
 
 Balances and Transferability Features: Hypersurface introduces the concept of balances and transferability into web documents. This means that web pages can now be used to record not just legal agreements but also assets and permissions. Each interaction or transaction on these pages can be recorded with precise balances, and the ownership or rights can be transferred as per the specified legal and operational frameworks.
 
-A Hub for Legal and Transactional Operations: Hypersurface allows for the creation of webpages and websites that can handle legal processes with embedded execution capabilities. These documents are legally enforceable and are signed using secure cryptographic techniques recognised under law in every majour jurisdiction. The hyperserver ensures that all signed documents are fully auditable, providing a complete history of significant actions. The added functionality of balances and transferability means that web pages can serve as a medium for recording and transferring assets and permissions, enhancing the scope of legal and financial operations on the web.
-
 For more information, please see the [Hypersurface Whitepaper](https://github.com/hypersurface-protocol/whitepaper).

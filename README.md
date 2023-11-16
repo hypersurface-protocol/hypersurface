@@ -69,8 +69,6 @@ Hypersurface exists at the intersection of the traditional legal system, fundame
 
 Transforming Legal and Web Interactions: Hypersurface bridges the gap between the traditional legal system and advanced web technology, streamlining the way legal agreements are managed and executed online. It moves away from static document formats like PDF and paper, which often require cumbersome methods for data entry and signature.
 
-Reimagining Web Architecture for Legal Processes: Traditional web design, primarily for sharing research documents, comes with inherent limitations. Hypersurface is designed with a different set of foundational principles, specifically to support high-importance operations and legal processes.
-
 Enhanced Data Capture and Record Keeping: Unlike the conventional web interaction where users send data to a server without maintaining a record of the data in its full context, Hypersurface allows for capturing data explicitly in its intended context, ensuring that users have a complete record of their data submissions.
 
 Secure and Comprehensive Data Recording: Users interact with their own server, which securely records the data in its entirety. This server then securely communicates the data to the relevant external servers, incorporating hashing and signing of webpages for added security.

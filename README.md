@@ -65,7 +65,7 @@ The purpose of these extensions is to enable sophisticated blockchain functional
 
 # Why is this so important?
 
-Hypersurface exists at the intersection of the traditional legal system, fundamental web technologies, and cutting-edge smart contract functionality. This unique combination of features means that not only can the blockchain be used in ways that users are familiar with for the first time ever (i.e., like the web), but it also forms the basis for a  fundamentally new web architecture.
+Hypersurface exists at the intersection of the traditional legal system, fundamental web technologies, and cutting-edge smart contract functionality. This unique combination of features means that not only can the blockchain be used in ways that users are familiar with for the first time ever (i.e., like the web), but it also forms the basis for a fundamentally new web architecture. Traditional web design, primarily for sharing information, comes with inherent limitations. Hypersurface is designed with a different set of foundational principles, specifically to support high-importance legal and financial operations.
 
 Transforming Legal and Web Interactions: Hypersurface bridges the gap between the traditional legal system and advanced web technology, streamlining the way legal agreements are managed and executed online. It moves away from static document formats like PDF and paper, which often require cumbersome methods for data entry and signature.
 

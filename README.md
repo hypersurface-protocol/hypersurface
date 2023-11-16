@@ -40,7 +40,7 @@ For actions that cannot be performed using tokens, the recipient simply signs a 
 
 2. Tokens function as the single standardized unit of interaction, eliminating complex custom interactions and making sophisticated functionality accessible to non-technical users.
 
-3. And, most importantly, namespaced ledger entries (essentially pointers) can be used to create semantic URLs (e.g., `acme/shares/transfer`). Where this becomes really useful is in combination with Hypersurface's unique document model, as ledger entries can be used for GET and POST actions in the frontend.
+3. And, most importantly, namespaced ledger entries (essentially pointers) can be used to create semantic URLs (e.g., `acme/shares/transfer`). Where this becomes particularly useful is in combination with Hypersurface's unique document model, as ledger entries can be used for GET and POST actions in the frontend.
 
 ## Frontend
 

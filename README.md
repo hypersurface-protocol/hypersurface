@@ -18,7 +18,7 @@ Due to the privacy provided by Oasis Sapphire, blockchain explorers no longer st
 
 ### Tokens
 
-Specific ledger entries can then be shared with other accounts via tokenization. The token component of the contract essentially functions like an ERC1155, whereby the token metadata/data is recorded on-chain as a ledger entry (instead of off-chain as JSON).
+Specific ledger entries can then be shared with other accounts via tokenization. The token component of the contract essentially functions like an ERC1155, whereby the token metadata/data is recorded on-chain as a ledger entry, instead of off-chain as JSON.
 
 When a token is sent to a server, it is received using a token receiver hook similar to an ERC1155 receiver. Where Hyperserver differs from traditional ERC1155 receivers is that the sender may specify the intended recipient by providing the ledger entry associated with it. For simple transfers, the entry ID is used to specify the recipient keypair (e.g., keccak256(alice) => 0x01Ab..). The receiver hook then logs the receipt and returns the appropriate address, which is then used to update the token balance.
 

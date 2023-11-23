@@ -69,7 +69,7 @@ The purpose of these extensions is to enable sophisticated blockchain functional
 
 ## What's unique about this design?
 
-The Hyperserver protocol introduces a novel approach to blockchain technology, analogous to how Virtual Private Servers (VPS) have functioned in traditional web hosting. Just as a VPS offers a private, virtualized partition of a physical server with dedicated resources, Hyperserver provides a similar approach with blockchain technology. In essence, a Hyperserver functions as a Virtual Private Blockchain (VPB), allowing users to create a private, partitioned section of the Sapphire blockchain network. This design is unique in several key ways:
+The Hyperserver protocol introduces a novel approach to blockchain technology, analogous to how Virtual Private Servers (VPS) have functioned in traditional web hosting. Just as a VPS offers a private, virtualized partition of a physical server with dedicated resources, Hyperserver provides a similar approach with blockchain technology, in essence, as a Virtual Private Blockchain (VPB). This design is unique in several key ways:
 
 - Ledger-Centric Operation: At its core, Hyperserver operates like a local, confidential blockchain. Its central ledger not only records transactions but also ensures data integrity and provides a cryptographically secure audit trail, akin to a traditional blockchain, but with enhanced privacy and control.
 - Flexible Signing Key Management: The integration of an arbitrary number of signing keypairs enables the Hyperserver to add user accounts, similar to EOAs in traditional blockchain networks or authorised operators for in a tradditional VPS.

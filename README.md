@@ -26,13 +26,13 @@ Tokenized entries can be withheld from everyone but token holders, creating a si
 
 ### Proxy Logic Functionality
 
-Entry data can be used to add proxy logic functionality to the core Hyperserver, in a similar way to the ERC-2535: Multi-Facet Diamond Proxy. Instead of extracting the function selector, which the core contract associates with a library for delegate call, users specify the relevant entries for their intended action. 
+Entry data can be used to add proxy logic functionality to the core Hyperserver, in a similar way to the ERC-2535 Multi-Facet Diamond Proxy. Instead of extracting the function selector, which the core contract associates with a library for delegate call, users specify the relevant entries for their intended action. 
 
-In essence, all function calls can be viewed as different token receiver hooks. Unlike traditional account models, Hyperserver does not pass data directly into function calls. Instead of submitting data directly, Hyperserver transfers a token to the appropriate receiver providing entry IDs to specify the functionality that should be used to handle the data. 
+*In essence, all function calls can be viewed as different token receiver hooks. Unlike traditional account models, Hyperserver does not pass data directly into function calls. Instead of submitting data directly, Hyperserver transfers a token to the appropriate receiver providing entry IDs to specify the functionality that should be used to handle the data. 
 
 Because tokens are used as the fundamental unit of interaction, the majority of actions can actually be reduced to very simple procedures made up of token transfers or issuances, signature verification, balance lookups (either internal or external), and return issuances or transfers.  
 
-For actions that cannot be performed using tokens, the recipient simply signs a request for the token entry data received by the hook, retrieves, verifies, and interprets the data to then use for the specified action. This also gives the issuer the opportunity to decrement the caller's balance if the token is consumable (for example, an action authorization). 
+For actions that cannot be performed using tokens, the recipient simply signs a request for the token entry data received by the hook, retrieves, verifies, and interprets the data to then use for the specified action. This also gives the issuer the opportunity to reduce the caller's balance if the token is consumable (for example, an action authorization). 
 
 ### Why not just pass data in directly?
 
